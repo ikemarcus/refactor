@@ -22,7 +22,7 @@ const status = {
  * Refactor: make the squares array more readable
  */
 const history = [
-  { squares: [null, null, null, null, null, null, null, null, null] },
+  { squares: [9] },
 ];
 const activePlayer = "X";
 const stepNumber = 0;
