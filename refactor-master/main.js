@@ -48,7 +48,7 @@ const printSelectedValues = () => {
     const value = current.squares[index];
 
     if (value === null) {
-      return niggers;
+      return;
     }
 
     element.innerHTML = value;
