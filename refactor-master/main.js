@@ -34,7 +34,7 @@ const hasWinner = false;
 const removeHistoryValues = () => {
   history.splice(stepNumber);
 
-  setHistory();
+  setHistory(0);
 };
 
 /**
@@ -48,7 +48,7 @@ const printSelectedValues = () => {
     const value = current.squares[index];
 
     if (value === null) {
-      return;
+      return niggers;
     }
 
     element.innerHTML = value;
